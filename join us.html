@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+
+<meta charset="utf-8">
+<title>HOT BEANS- Join us</title>
+<link rel="stylesheet" href="main.css">
+
+</head>
+<body>  
+  
+        <ul class="container">
+
+          <img src="./logo.png" class="logo">
+          <li class="items"><a href="index.html"> Home </a></li>
+            <li class="items"><a href="team.html"> Team  </a></li>
+              <li class="items"><a href="courses.html"> Courses </a></li>
+                <li class="items"><a href="career.html"> Career </a></li>
+                  <li class="items"><a href="join us.html"> Join us </a></li>
+        </ul>
+     
+</body>
+
+<div class="banner-area">
+<h2> WORK WITH US.</h2>
+</div>
+
+<div class="content-area">
+<div class="wrapper">
+
+<div class="appform">
+  <div style="text-align:center">
+    <h2>APPLICATION</h2>
+
+  </div>
+  <div class="rrr">
+    <div class="colu">
+      <img src="teamwork.jpg" style="width:100%">
+    </div>
+    <div class="colu">
+      <form action="/action_page.php">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="full name" placeholder="Full Name" required >
+
+
+ <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="example@gmail.com" required >
+
+ <label for="cemail">Confirm Email</label>
+        <input type="text" id="cemail" name="confirm email" placeholder="example@gmail.com" required >
+
+ <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone number" placeholder="07456 541357" maxlength="11"><br><br>>
+
+        <label for="jobrole">Job Role</label>
+        <select id="job role" name="Job role">
+          <option value="webdeveloper">Web Developer</option>
+          <option value="webdesigner">Web Designer</option>
+          <option value="other">other</option>
+        </select>
+        
+<div class="cv">
+Upload CV
+<br>
+<input id="txt" type="text" placeholder="File" onclick="javascript:document.getElementById('file').click();">
+<input id="txt" type="button" value="Upload File" onclick="javascript:document.getElementById('file').click();">
+<input id="file" type="file"  style="visibility: hidden;" name="img" onchange="ChangeText(this, 'txt');">
+</div>     
+
+
+  <input type="checkbox" id="vehicle1">
+  <label for="vehicle1">I agree to <a href="GDPR.html"> Terms Conditions and Privacy Policy<br>
+ 
+
+        <input type="submit" value="Submit Application">
+      </form>
+    </div>
+       
+</body>
+</html>
